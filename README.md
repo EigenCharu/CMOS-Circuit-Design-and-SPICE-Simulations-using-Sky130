@@ -1,6 +1,6 @@
 # 🧠 CMOS Circuit Design and SPICE Simulations using Sky130
 
-This repository contains my work from the **VSD Workshop** on **CMOS Circuit Design and SPICE Simulations** using the **Sky130 PDK**.
+This repository contains my work from the **Workshop** on **CMOS Circuit Design and SPICE Simulations** using the **Sky130 PDK models**.
 
 ---
 
@@ -21,13 +21,14 @@ This repository contains my work from the **VSD Workshop** on **CMOS Circuit Des
 ├── Day3.md
 ├── Day4.md
 ├── Day5.md
-└── Documentation(2).pdf
 ```
+
+Ignore the cmos_workshop.pdf its damaged.
 
 ## 🧩 Tools & Environment
 - **Technology:** SkyWater 130nm (Sky130 PDK)  
 - **Simulation Tool:** Ngspice    
-- **Platform:** Linux (preferred) or Windows  
+- **Platform:** Linux(Ubuntu) 
 
 ### 🧾 Author
 **Charukesh G**  
