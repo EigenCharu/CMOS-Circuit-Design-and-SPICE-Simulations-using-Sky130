@@ -28,9 +28,8 @@ The CMOS inverter continues to operate correctly across the tested supply voltag
 
 ---
 
-## 🧮 2. Gain Calculation at Different Supply Voltages
 <section>
-
+ <h2>🧮 2. Gain Calculation at Different Supply Voltages</h2>
   <style>
     .vtc-table {
       border-collapse: collapse;
@@ -64,6 +63,7 @@ The CMOS inverter continues to operate correctly across the tested supply voltag
       .vtc-thumb { max-width: 140px; }
     }
   </style>
+  
   <table class="vtc-table" aria-labelledby="gain-heading" role="table">
     <thead>
       <tr>
