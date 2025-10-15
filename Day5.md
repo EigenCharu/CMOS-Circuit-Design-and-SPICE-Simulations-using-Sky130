@@ -154,7 +154,7 @@ In this experiment, we plotted the **VTC for a strong PMOS and weak NMOS** confi
 
 - For a **strong PMOS and weak NMOS**, the **switching threshold (V<sub>M</sub>) shifts right**,  
   meaning the inverter now requires a higher input voltage to switch output states.
-- This behavior illustrates how **device sizing** directly influences the **noise margins and symmetry** of the CMOS inverter’s transfer characteristics.
+- This behavior illustrates how **device sizing** directly influences the **noise margins and switching voltage** of the CMOS inverter’s transfer characteristics.
 
 ---
 
