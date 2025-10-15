@@ -41,6 +41,8 @@ To plot and analyze the I–V characteristics and transfer characteristics (I<su
 ### ⚡ Threshold Voltage (V<sub>T</sub>) Extraction
 ![Threshold Voltage](https://github.com/user-attachments/assets/776e4d57-c0b0-49a6-9cde-32a652e0ab8c)
 
+**V<sub>t</sub> = 0.87V**
+
 **Observation:**  
 - The transfer characteristics (I<sub>D</sub>–V<sub>GS</sub>) plot indicates the quadrature and linear dependence of I<sub>D</sub>on V<sub>GS</sub> for lower nodes.
 - For Lower nodes, there exists an additional mode of operation called **Velocity Saturation Mode**
