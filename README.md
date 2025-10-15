@@ -13,12 +13,16 @@ This repository contains my work from the **VSD Workshop** on **CMOS Circuit Des
 2. **Day-wise Lab Work**  
    Each day’s experiment is organized in a separate folder, containing a detailed **`README.md`** with SPICE setups, plots, calculations, and observations.
 
-   Repository structure:
+ Structure:
+
+```bash
 ├── Day1.md
 ├── Day2.md
 ├── Day3.md
 ├── Day4.md
 ├── Day5.md
+└── Documentation(2).pdf
+```
 
 ## 🧩 Tools & Environment
 - **Technology:** SkyWater 130nm (Sky130 PDK)  
