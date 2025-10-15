@@ -18,22 +18,26 @@ The objective is to observe the I–V characteristics and analyze the transistor
 
 ---
 
-### For \( V_{GS} = 0.6\,V \)
+### For V<sub>GS</sub> = 0.6 V
 ![Vgs = 0.6V](https://github.com/user-attachments/assets/51af25bf-7e15-4bc6-b088-b3a66a9c3098)
 
 ---
 
-### Drain Current at \( V_{DS} = 1.3\,V \)
+### Drain Current at V<sub>DS</sub> = 1.3 V
+The drain current (I<sub>D</sub>) corresponding to V<sub>DS</sub> = 1.3 V is shown below:
 ![ID at Vds = 1.3V](https://github.com/user-attachments/assets/67b342fa-0f89-44a5-b8e1-60856af9d462)
-<\br>
-The drain current (\( I_D \)) corresponding to \( V_{DS} = 1.3\,V \) is shown below:
 
 ---
 
 ## 🧠 Observation
-- The output characteristics show that \( I_D \) increases with \( V_{GS} \), as expected.  
-- The device transitions from linear to saturation region as \( V_{DS} \) increases.  
-- The SPICE results closely match theoretical predictions for an enhancement-type NMOS transistor.
+- The output characteristics show that I<sub>D</sub> increases with V<sub>GS</sub>, as expected.  
+- The device transitions from the linear to the saturation region as V<sub>DS</sub> increases.  
+- The SPICE results closely match theoretical predictions for an enhancement-type NMOS transistor.  
+- The cutoff region occurs when V<sub>GS</sub> &lt; V<sub>T</sub>, where no conduction takes place.
 
+---
 
-
+## 🧾 Key Takeaways
+- SPICE effectively models MOSFET behavior across different operating regions.  
+- Increasing V<sub>GS</sub> enhances channel formation, leading to higher I<sub>D</sub>.  
+- The results validate the quadratic relationship between I<sub>D</sub> and V<sub>GS</sub> in long-channel NMOS devices.
