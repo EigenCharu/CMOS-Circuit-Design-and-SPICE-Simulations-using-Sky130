@@ -11,7 +11,7 @@ This repository contains my work from the **Workshop** on **CMOS Circuit Design 
    > 💡 *Recommended:* Download and view this file locally, or open it via the GitHub **web interface** for proper rendering (not the mobile app).
 
 2. **Day-wise Lab Work**  
-   Each day’s experiment is organized in a separate folder, containing a detailed **`README.md`** with SPICE setups, plots, calculations, and observations.
+   Each day’s experiment is organized in a separate .md files, containing a detailed SPICE setups, plots, calculations, and observations.
 
  Structure:
 
