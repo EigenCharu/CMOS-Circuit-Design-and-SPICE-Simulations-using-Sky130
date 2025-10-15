@@ -24,8 +24,9 @@ The objective is to observe the I–V characteristics and analyze the transistor
 ---
 
 ### Drain Current at \( V_{DS} = 1.3\,V \)
-The drain current (\( I_D \)) corresponding to \( V_{DS} = 1.3\,V \) is shown below:
 ![ID at Vds = 1.3V](https://github.com/user-attachments/assets/67b342fa-0f89-44a5-b8e1-60856af9d462)
+<\br>
+The drain current (\( I_D \)) corresponding to \( V_{DS} = 1.3\,V \) is shown below:
 
 ---
 
