@@ -1,11 +1,11 @@
-# Day 2 
+# Day 2 - Lower Nodes of Operation in N-MOSFET
 
 ## 🔹 Objective
 To plot and analyze the I–V characteristics and transfer characteristics (I<sub>D</sub> vs V<sub>GS</sub>) of an NMOS transistor for lower modes, using SPICE simulation.
 
 ---
 
-## ⚙️ 1. Plotting I–V Characteristics for Lower Modes
+## ⚙️ 1. Plotting I–V Characteristics for Lower Nodes
 
 ### 🧩 SPICE Simulation Code
 ![SPICE Code](https://github.com/user-attachments/assets/3a5c8d8b-741a-4987-aa01-c15512ee3b2f)
@@ -22,7 +22,7 @@ To plot and analyze the I–V characteristics and transfer characteristics (I<su
 
 **Observation:**  
 - The I–V plot shows the quadrature dependence of I<sub>D</sub> with V<sub>GS</sub> for lower values of V<sub>GS</sub>
-- TLinear Dependence at of I<sub>D</sub> on V<sub>GS</sub> at higher V<sub>GS</sub> levels.
+- Linear Dependence at of I<sub>D</sub> on V<sub>GS</sub> at higher V<sub>GS</sub> levels.
 
 ---
 
@@ -43,3 +43,4 @@ To plot and analyze the I–V characteristics and transfer characteristics (I<su
 
 **Observation:**  
 - The transfer characteristics (I<sub>D</sub>–V<sub>GS</sub>) plot indicates the quadrature and linear dependence of I<sub>D</sub>on V<sub>GS</sub> for lower nodes.
+- For Lower nodes, there exists an additional mode of operation called **Velocity Saturation Mode**
