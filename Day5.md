@@ -28,7 +28,7 @@ The CMOS inverter continues to operate correctly across the tested supply voltag
 
 ---
 
-<h2>🧮 2. Gain Calculation at Different Supply Voltages</h2>
+<h2>🧮 Gain Calculation at Different Supply Voltages</h2>
 
 <table style="border-collapse:collapse;width:100%;max-width:800px;">
   <thead>
@@ -93,7 +93,7 @@ The CMOS inverter continues to operate correctly across the tested supply voltag
 
 ---
 
-## 📊 3. Observations and Analysis
+## 📊  Observations and Analysis
 
 - The **gain** of the CMOS inverter **increases** as **V<sub>DD</sub> decreases** from 1.8 V to 1.2 V.  
 - Beyond this point (below 1.0 V), the **gain starts to drop** because the **supply voltage is insufficient** for strong switching.  
@@ -101,10 +101,66 @@ The CMOS inverter continues to operate correctly across the tested supply voltag
 
 ---
 
-## 🧠 4. Conclusion
+## 🧠  Conclusion
 
 - CMOS inverters are **robust** against moderate power supply variations.  
-- **Lower V<sub>DD</sub>** reduces noise margin and output swing, eventually degrading performance.  
+- **Lower V<sub>DD</sub>** reduces noise margin and output swing, eventually degrading performance.
+## ⚙️ 2. Device Variation
+
+### 🔧 SPICE Setup
+In this experiment, we plotted the **VTC for a strong PMOS and weak NMOS** configuration of a CMOS inverter.
+
+**Circuit Schematic:**
+
+![SPICE Setup](https://github.com/user-attachments/assets/b4b231fb-9603-4350-a371-ba716d53825e)
+
+> The width of the **PMOS** is **7 µm**, compared to **0.25 µm** for the **NMOS**.  
+> This configuration is referred to as a **strong PMOS and weak NMOS** design.
+
+---
+
+### 📈 SPICE Simulation Output
+
+**Voltage Transfer Characteristics (VTC):**
+
+![SPICE Plot](https://github.com/user-attachments/assets/0b923853-b7b0-461f-86e6-f483e559c21e)
+
+---
+
+### 🧠 Observations
+
+- The **output holds near V<sub>DD</sub>** for a longer duration compared to ground.
+- This happens because the **PMOS drive strength** is much higher than the NMOS (due to increased width).
+- Taking **V<sub>DD</sub>/2 = 0.9 V** as the nominal switching voltage (**V<sub>M</sub>**) for equal-strength transistors,  
+  we observe a **rightward shift** in the switching threshold for the strong-PMOS configuration.
+
+---
+
+### 📏 Shifted Switching Threshold
+
+**Plot:**
+
+![Shifted Threshold](https://github.com/user-attachments/assets/75f235c8-4ed2-4632-9a93-d13504f2fbe2)
+
+**Measured Value:**
+
+<img width="321" height="66" alt="Vm Measurement" src="https://github.com/user-attachments/assets/48fdc1af-55ca-4512-93fe-04d2318a0ef2" />
+
+> **V<sub>M</sub> = 0.988 V**
+
+---
+
+### 🧠 Conclusion
+
+- For a **strong PMOS and weak NMOS**, the **switching threshold (V<sub>M</sub>) shifts right**,  
+  meaning the inverter now requires a higher input voltage to switch output states.
+- This behavior illustrates how **device sizing** directly influences the **noise margins and symmetry** of the CMOS inverter’s transfer characteristics.
+
+---
+
+
+
+
 
 
 
